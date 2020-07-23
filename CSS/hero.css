@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	background-image: url(https://images5.alphacoders.com/875/thumb-1920-875972.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	color: white;
+  	font-family: helvetica;
+  	line-height: 30px;
+  	font-size: 20px;
+}
+
+header{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+header img{
+	border-radius: 500px;
+	width: 500px;
+	border: 2px solid white;
+}
+
+
+header h1{
+	font-size: 100px;
+}
+
+
+h1, h2{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+
+
+main :not(img){
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+main img{
+	max-width: 100%;
+	max-height: auto;
+}
+
+
+h2{
+	font-size: 40px;
+	
+}
+
+
+a{
+	color: white;
+}
+a:hover{
+	color:#FFFCD4;
+}
+
+footer{
+	text-align: center;
+	padding: 50px;
+}
+
+p.caption{
+	margin: 1px;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 0;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
