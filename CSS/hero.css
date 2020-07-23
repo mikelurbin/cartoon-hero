@@ -7,7 +7,7 @@ body{
   	color: white;
   	font-family: helvetica;
   	line-height: 30px;
-  	font-size: 20px;
+  	
 }
 
 header{
@@ -71,10 +71,30 @@ p.caption{
 	font-size: 15px;
 	font-style: italic;
 	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul{
+	list-style-type: none; 
+	font-size: 18px;
+}
+
+ol{
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+p{
+	font-size: 20px;
 }
