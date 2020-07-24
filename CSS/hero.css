@@ -39,7 +39,7 @@ main :not(img){
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 20px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 main img{
@@ -71,7 +71,7 @@ p.caption{
 	font-size: 15px;
 	font-style: italic;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 ul {
@@ -86,13 +86,15 @@ a:link {
 
 ul{
 	list-style-type: none; 
-	font-size: 18px;
+	font-size: 16px;
+	text-align: center;
 }
 
 ol{
 	text-align: center;
 	list-style-type: none;
-	font-size: 20px;
+	font-size: 16px;
+	margin-bottom: 40px;
 }
 
 p{
